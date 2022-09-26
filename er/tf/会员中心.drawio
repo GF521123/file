@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T02:51:12.771Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="X6RDHu_PuEpAjR3yatdd" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-26T02:59:51.666Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="0x2xEMn1TwL9uWymRZ-2" version="20.3.3" type="github">
   <diagram id="sI_Y1GV-eMA6kngm9zq1" name="第 1 页">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,28 +64,28 @@
         <mxCell id="i7XZehSRylWw-CVcuyx0-71" value="paypass|支付密码|character varying(64)|FALSE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="i7XZehSRylWw-CVcuyx0-39">
           <mxGeometry y="570" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i7XZehSRylWw-CVcuyx0-69" value="errorcnt|错误次数：已废弃|integer|FALSE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="i7XZehSRylWw-CVcuyx0-39">
+        <mxCell id="i7XZehSRylWw-CVcuyx0-84" value="amount  |  余额  |  double precision  |  FALSE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="i7XZehSRylWw-CVcuyx0-39">
           <mxGeometry y="600" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i7XZehSRylWw-CVcuyx0-70" value="paytime|支付时间：已废弃|timestamp with time zone|FALSE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="i7XZehSRylWw-CVcuyx0-39">
+        <mxCell id="i7XZehSRylWw-CVcuyx0-83" value="amount_lock  |  余额锁  |  double precision  |  FALSE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="i7XZehSRylWw-CVcuyx0-39">
           <mxGeometry y="630" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i7XZehSRylWw-CVcuyx0-68" value="errordate  |  错误日期：已废弃  |  date  |  FALSE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="i7XZehSRylWw-CVcuyx0-39">
+        <mxCell id="i7XZehSRylWw-CVcuyx0-82" value="isvalid  |  是否可用  |  boolean  |  FALSE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="i7XZehSRylWw-CVcuyx0-39">
           <mxGeometry y="660" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i7XZehSRylWw-CVcuyx0-84" value="amount  |  余额  |  double precision  |  FALSE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="i7XZehSRylWw-CVcuyx0-39">
+        <mxCell id="i7XZehSRylWw-CVcuyx0-69" value="errorcnt|错误次数：已废弃|integer|FALSE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#CCCCCC;" vertex="1" parent="i7XZehSRylWw-CVcuyx0-39">
           <mxGeometry y="690" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i7XZehSRylWw-CVcuyx0-83" value="amount_lock  |  余额锁  |  double precision  |  FALSE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="i7XZehSRylWw-CVcuyx0-39">
+        <mxCell id="i7XZehSRylWw-CVcuyx0-70" value="paytime|支付时间：已废弃|timestamp with time zone|FALSE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#CCCCCC;" vertex="1" parent="i7XZehSRylWw-CVcuyx0-39">
           <mxGeometry y="720" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i7XZehSRylWw-CVcuyx0-82" value="isvalid  |  是否可用  |  boolean  |  FALSE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="i7XZehSRylWw-CVcuyx0-39">
+        <mxCell id="i7XZehSRylWw-CVcuyx0-68" value="errordate  |  错误日期：已废弃  |  date  |  FALSE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#CCCCCC;" vertex="1" parent="i7XZehSRylWw-CVcuyx0-39">
           <mxGeometry y="750" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i7XZehSRylWw-CVcuyx0-85" value="会员套餐表(vipmenu)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;fillColor=#CCCCCC;" vertex="1" parent="1">
           <mxGeometry x="560" y="60" width="340" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="i7XZehSRylWw-CVcuyx0-89" value="字段名  |  说明  |  数据类型  |  是否非空" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="i7XZehSRylWw-CVcuyx0-85">
+        <mxCell id="i7XZehSRylWw-CVcuyx0-89" value="字段名  |  说明  |  数据类型  |  是否非空" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;" vertex="1" parent="i7XZehSRylWw-CVcuyx0-85">
           <mxGeometry y="30" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i7XZehSRylWw-CVcuyx0-90" value="id  |  ID  |  character varying(32)  |  TRUE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="i7XZehSRylWw-CVcuyx0-85">
