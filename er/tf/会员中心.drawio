@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T06:52:57.101Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="9kLOZZgdK9NJsAiOKKko" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-26T07:12:53.093Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Lekym0SPSO4XCA9HHYp2" version="20.3.3" type="github">
   <diagram id="sI_Y1GV-eMA6kngm9zq1" name="第 1 页">
-    <mxGraphModel dx="3842" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3151" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -240,7 +240,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i7XZehSRylWw-CVcuyx0-179" value="等级表(level)--积分" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#CCCCCC;" vertex="1" parent="1">
-          <mxGeometry x="30" y="869" width="360" height="300" as="geometry" />
+          <mxGeometry x="20" y="860" width="360" height="300" as="geometry" />
         </mxCell>
         <mxCell id="i7XZehSRylWw-CVcuyx0-180" value="字段名  |  说明  |  数据类型  |  是否非空" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="i7XZehSRylWw-CVcuyx0-179">
           <mxGeometry y="30" width="360" height="30" as="geometry" />
@@ -271,9 +271,10 @@
         </mxCell>
         <mxCell id="i7XZehSRylWw-CVcuyx0-209" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="i7XZehSRylWw-CVcuyx0-63" target="i7XZehSRylWw-CVcuyx0-181">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="940" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-10" y="285" />
-              <mxPoint x="-10" y="944" />
+              <mxPoint y="285" />
+              <mxPoint y="935" />
             </Array>
           </mxGeometry>
         </mxCell>
