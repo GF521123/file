@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T06:48:59.392Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="uYKMQTE4zTjzHU5wK1VQ" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-26T06:49:49.584Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="BLEs_cz2aLmhyfFUGjW3" version="20.3.3" type="github">
   <diagram id="sI_Y1GV-eMA6kngm9zq1" name="第 1 页">
-    <mxGraphModel dx="3432" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3842" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -83,7 +83,7 @@
           <mxGeometry y="750" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i7XZehSRylWw-CVcuyx0-85" value="会员套餐表(vipmenu)--会员等级" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;fillColor=#CCCCCC;" vertex="1" parent="1">
-          <mxGeometry x="500" y="390" width="340" height="210" as="geometry" />
+          <mxGeometry x="414" y="400" width="340" height="210" as="geometry" />
         </mxCell>
         <mxCell id="i7XZehSRylWw-CVcuyx0-89" value="字段名  |  说明  |  数据类型  |  是否非空" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;" vertex="1" parent="i7XZehSRylWw-CVcuyx0-85">
           <mxGeometry y="30" width="340" height="30" as="geometry" />
@@ -112,7 +112,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="i7XZehSRylWw-CVcuyx0-107" value="会员订单表(viporder)--会员推荐关系" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#CCCCCC;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="60" width="330" height="870" as="geometry" />
+          <mxGeometry x="880" y="60" width="330" height="870" as="geometry" />
         </mxCell>
         <mxCell id="i7XZehSRylWw-CVcuyx0-108" value="字段名  |  说明  |  数据类型  |  是否非空" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="i7XZehSRylWw-CVcuyx0-107">
           <mxGeometry y="30" width="330" height="30" as="geometry" />
@@ -277,7 +277,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pIaiaxuz5bSqvbTP5hzd-1" value="订单表(dingdan)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#CCCCCC;" vertex="1" parent="1">
-          <mxGeometry x="-860" y="30" width="430" height="840" as="geometry" />
+          <mxGeometry x="-830" y="30" width="430" height="840" as="geometry" />
         </mxCell>
         <mxCell id="pIaiaxuz5bSqvbTP5hzd-2" value="字段名  |  说明  |  数据类型  |  是否非空" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="pIaiaxuz5bSqvbTP5hzd-1">
           <mxGeometry y="30" width="430" height="30" as="geometry" />
@@ -373,7 +373,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pIaiaxuz5bSqvbTP5hzd-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;fontColor=#CCCCCC;" edge="1" parent="1" source="i7XZehSRylWw-CVcuyx0-50" target="pIaiaxuz5bSqvbTP5hzd-69">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-140" y="165" />
+              <mxPoint x="-140" y="195" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="pIaiaxuz5bSqvbTP5hzd-71" value="订单商品表(dingdan_good)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#CCCCCC;" vertex="1" parent="1">
           <mxGeometry x="-1610" width="430" height="810" as="geometry" />
