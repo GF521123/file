@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-27T06:35:47.115Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="jsU3jVmp_7dyMz0cMG-q" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-27T06:37:32.544Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Z7NOkh6t84kouSfkVUz-" version="20.3.3" type="github">
   <diagram id="sI_Y1GV-eMA6kngm9zq1" name="第 1 页">
-    <mxGraphModel dx="4498" dy="1506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4498" dy="2675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -474,6 +474,9 @@
         </mxCell>
         <mxCell id="pIaiaxuz5bSqvbTP5hzd-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;fontColor=#CCCCCC;" edge="1" parent="1" source="pIaiaxuz5bSqvbTP5hzd-4" target="pIaiaxuz5bSqvbTP5hzd-75">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dPkmCBX09Qdh__wMUIUd-1" value="&lt;font size=&quot;1&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 57px;&quot;&gt;商城数据库ER图 v1.0.6(因会员系统，整理终止)&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="-625" y="-205" width="1230" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
