@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T09:47:43.808Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="NQ7pFWXM1pdMTa0cIexe" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-11T09:57:01.530Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="57iqa2uEkMVWGNRKxdL8" version="20.4.0" type="github">
   <diagram id="sI_Y1GV-eMA6kngm9zq1" name="第 1 页">
-    <mxGraphModel dx="3327" dy="2056" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3076" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -365,7 +365,7 @@
           <mxGeometry y="300" width="370" height="30" as="geometry" />
         </mxCell>
         <mxCell id="niDoNRV2lA6dIMRFN17V-18" value="平台会员积分记录(Platform_integral_details)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-1130" y="30" width="370" height="300" as="geometry" />
+          <mxGeometry x="-1130" y="20" width="370" height="300" as="geometry" />
         </mxCell>
         <mxCell id="niDoNRV2lA6dIMRFN17V-19" value="字段名  |  说明  |  数据类型  |  是否非空" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="niDoNRV2lA6dIMRFN17V-18">
           <mxGeometry y="30" width="370" height="30" as="geometry" />
@@ -398,7 +398,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="niDoNRV2lA6dIMRFN17V-31" value="平台会员余额明细(Platform_balance_subsidiary)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-1130" y="350" width="370" height="300" as="geometry" />
+          <mxGeometry x="-1130" y="340" width="370" height="300" as="geometry" />
         </mxCell>
         <mxCell id="niDoNRV2lA6dIMRFN17V-32" value="字段名  |  说明  |  数据类型  |  是否非空" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="niDoNRV2lA6dIMRFN17V-31">
           <mxGeometry y="30" width="370" height="30" as="geometry" />
