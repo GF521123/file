@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-14T02:19:16.389Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="32il_Jxw-JNtjsHqlMFp" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-14T02:50:13.233Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="KKIRyP0ddn3e-IuGLjIy" version="20.4.0" type="github">
   <diagram id="sI_Y1GV-eMA6kngm9zq1" name="第 1 页">
     <mxGraphModel dx="2839" dy="1751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -497,7 +497,7 @@
           <mxGeometry y="300" width="370" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ii_wTayYp8A7koFGNpYY-23" value="平台会员好友关系(friendly_relationship)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-690" y="790" width="370" height="270" as="geometry" />
+          <mxGeometry x="-690" y="830" width="370" height="270" as="geometry" />
         </mxCell>
         <mxCell id="ii_wTayYp8A7koFGNpYY-24" value="字段名  |  说明  |  数据类型  |  是否非空" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ii_wTayYp8A7koFGNpYY-23">
           <mxGeometry y="30" width="370" height="30" as="geometry" />
