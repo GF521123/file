@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-21T01:14:50.169Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="6jyIUKA1CRcXE7bXreAT" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-21T07:26:50.858Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="RE_3YkKfeauWyg-fYdzj" version="20.4.0" type="github">
   <diagram id="sI_Y1GV-eMA6kngm9zq1" name="第 1 页">
-    <mxGraphModel dx="3685" dy="2245" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3327" dy="2055" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -143,7 +143,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cpaXrOd0vx1lCAqIQ1UL-51" value="平台会员表(member_platform)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-580" y="-340" width="370" height="480" as="geometry" />
+          <mxGeometry x="-590" y="-280" width="370" height="480" as="geometry" />
         </mxCell>
         <mxCell id="cpaXrOd0vx1lCAqIQ1UL-52" value="字段名  |  说明  |  数据类型  |  是否非空" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="cpaXrOd0vx1lCAqIQ1UL-51" vertex="1">
           <mxGeometry y="30" width="370" height="30" as="geometry" />
@@ -273,9 +273,6 @@
         </mxCell>
         <mxCell id="cpaXrOd0vx1lCAqIQ1UL-125" value="update_by | 更新人 | varchar(255) | 是" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="cpaXrOd0vx1lCAqIQ1UL-103" vertex="1">
           <mxGeometry y="450" width="370" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="cpaXrOd0vx1lCAqIQ1UL-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="cpaXrOd0vx1lCAqIQ1UL-56" target="cpaXrOd0vx1lCAqIQ1UL-105" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cpaXrOd0vx1lCAqIQ1UL-140" value="门店会员表(member_store)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="370" y="-360" width="370" height="480" as="geometry" />
@@ -713,6 +710,54 @@
         </mxCell>
         <mxCell id="WFpUsZVEF7jUPBBt3aHF-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cpaXrOd0vx1lCAqIQ1UL-53" target="ii_wTayYp8A7koFGNpYY-27">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WFpUsZVEF7jUPBBt3aHF-51" value="平台会员来源(platform_member_form)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="560" width="370" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="WFpUsZVEF7jUPBBt3aHF-52" value="字段名  |  说明  |  数据类型  |  是否非空" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="WFpUsZVEF7jUPBBt3aHF-51">
+          <mxGeometry y="30" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WFpUsZVEF7jUPBBt3aHF-53" value="id | 主键 | bigint(20) |  否" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WFpUsZVEF7jUPBBt3aHF-51">
+          <mxGeometry y="60" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WFpUsZVEF7jUPBBt3aHF-54" value="sn |唯一外部识别 | varchar(255) | 否" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="WFpUsZVEF7jUPBBt3aHF-51">
+          <mxGeometry y="90" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WFpUsZVEF7jUPBBt3aHF-55" value="parent_id | 父节点ID | varchar(255) | 否  " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="WFpUsZVEF7jUPBBt3aHF-51">
+          <mxGeometry y="120" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WFpUsZVEF7jUPBBt3aHF-56" value="NO | 节点汇总 | varchar(255) | 否  " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="WFpUsZVEF7jUPBBt3aHF-51">
+          <mxGeometry y="150" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WFpUsZVEF7jUPBBt3aHF-57" value="number | 编号 | varchar(255) | 否" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="WFpUsZVEF7jUPBBt3aHF-51">
+          <mxGeometry y="180" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WFpUsZVEF7jUPBBt3aHF-58" value="name | 门店名 | varchar(255) | 否  " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="WFpUsZVEF7jUPBBt3aHF-51">
+          <mxGeometry y="210" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WFpUsZVEF7jUPBBt3aHF-59" value="all_name | 全名 | varchar(255) | 否  " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="WFpUsZVEF7jUPBBt3aHF-51">
+          <mxGeometry y="240" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WFpUsZVEF7jUPBBt3aHF-60" value="is_store | 是否店铺 | int | 否  " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="WFpUsZVEF7jUPBBt3aHF-51">
+          <mxGeometry y="270" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WFpUsZVEF7jUPBBt3aHF-61" value="deep | 节点深度 | int | 否  " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="WFpUsZVEF7jUPBBt3aHF-51">
+          <mxGeometry y="300" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WFpUsZVEF7jUPBBt3aHF-62" value="disable | 是否作废(0否/1作废) | int | 否" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="WFpUsZVEF7jUPBBt3aHF-51">
+          <mxGeometry y="330" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WFpUsZVEF7jUPBBt3aHF-63" value="create_at | 创建时间 | bigint | 是" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="WFpUsZVEF7jUPBBt3aHF-51">
+          <mxGeometry y="360" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WFpUsZVEF7jUPBBt3aHF-64" value="craete_by | 创建人 | varchar(255) | 是" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="WFpUsZVEF7jUPBBt3aHF-51">
+          <mxGeometry y="390" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WFpUsZVEF7jUPBBt3aHF-65" value="update_at | 更新时间 | bigint | 是" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="WFpUsZVEF7jUPBBt3aHF-51">
+          <mxGeometry y="420" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WFpUsZVEF7jUPBBt3aHF-66" value="update_by | 更新人 | varchar(255) | 是" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="WFpUsZVEF7jUPBBt3aHF-51">
+          <mxGeometry y="450" width="370" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
