@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-24T06:28:23.128Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="5EbH9s3X3555-po7I4Tq" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-24T06:28:38.810Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="g92ad81-foUGQmXFyVBs" version="20.4.0" type="github">
   <diagram id="sI_Y1GV-eMA6kngm9zq1" name="第 1 页">
     <mxGraphModel dx="3327" dy="2056" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -751,7 +751,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WFpUsZVEF7jUPBBt3aHF-68" value="部门表(department)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="840" y="-1070" width="370" height="390" as="geometry" />
+          <mxGeometry x="940" y="-1070" width="370" height="390" as="geometry" />
         </mxCell>
         <mxCell id="WFpUsZVEF7jUPBBt3aHF-69" value="字段名  |  说明  |  数据类型  |  是否非空" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="WFpUsZVEF7jUPBBt3aHF-68">
           <mxGeometry y="30" width="370" height="30" as="geometry" />
